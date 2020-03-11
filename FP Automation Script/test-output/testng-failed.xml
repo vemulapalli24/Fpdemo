@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT"
+	name="Failed suite [Default suite]">
+	<test thread-count="5" name="Default test(failed)">
+		<classes>
+			<class name="testcases.NewFPTest">
+				<methods>
+					<include name="endReport" />
+					<include name="fundWithInvestmentsTest" />
+					<include name="helpFileTest" />
+					<include name="startReport" />
+					<include name="startTest" />
+					<include name="ltcProjectionsTest" />
+					<include name="HealthcareVideo" />
+					<include name="beforeClass" />
+					<include name="financialAdvicePdf" />
+					<include name="loginToApplication" />
+					<include name="logoutOfApplication" />
+					<include name="addNewContentMail" />
+					<include name="personalInformationTest" />
+					<include name="createNewPlan" />
+					<include name="editPlanTest" />
+					<include name="viewPdfTest" />
+					<include name="medicareBundlesTest" />
+					<include name="changePasswordTest" />
+					<include name="comparePlanTest" />
+					<include name="getResult" />
+					<include name="deletePlanTest" />
+					<include name="stopTest" />
+				</methods>
+			</class> <!-- testcases.NewFPTest -->
+		</classes>
+	</test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
